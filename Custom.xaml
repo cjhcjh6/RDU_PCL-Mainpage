@@ -1,0 +1,14 @@
+﻿<local:MyCard Title="余梦再现目前进展08" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="进展非常顺利" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="除了出问题的模组以外" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="其他的模组和插件都可以正常运行" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="现在把菜单 配置 以及成就系统弄完就可以了" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="顺便等YSM和Banner更新" />
+	</StackPanel>
+</local:MyCard>
