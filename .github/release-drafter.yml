@@ -4,7 +4,9 @@ template: |
   ## Changes
 
   $CHANGES
+  
  **完整更新日志**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
+ 
 categories:
   - title: '🚀 Features'
     labels:
