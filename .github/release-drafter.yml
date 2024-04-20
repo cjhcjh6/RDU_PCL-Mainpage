@@ -2,11 +2,8 @@ name-template: '自动打包发行'
 tag-template: 'Mainpage'
 template: |
   ## Changes
-
-  $CHANGES
   
- **完整更新日志**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
- 
+  $CHANGES
 categories:
   - title: '🚀 Features'
     labels:
