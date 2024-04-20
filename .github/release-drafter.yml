@@ -29,4 +29,4 @@ version-resolver:
     labels:
       - 'patch'
   default: patch
-latest: true
+latest: "true"
