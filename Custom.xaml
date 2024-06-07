@@ -28,7 +28,27 @@
 		</StackPanel>
 	</StackPanel>
 </local:MyCard>
-<local:MyCard Title="余梦再现目前进展08" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+<local:MyCard Title="余梦再现目前进展10" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="你问我进展09去哪里了？" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="进展09太多图片了" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="我暂时没有这个技术力" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="先说一下" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="我们把从Fabric+插件改成了Forge+插件" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="以获取更好的模组体验" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="服务器的网站已经搭建完成了" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="准备好就开服了" />
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="余梦再现目前进展08" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
 	<StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="进展非常顺利" />
