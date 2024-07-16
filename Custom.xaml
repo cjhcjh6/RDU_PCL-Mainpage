@@ -1,4 +1,4 @@
-<local:MyCard Title="欢迎页" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+<local:MyCard Title="欢迎页(三周目)" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
 	<StackPanel Margin="25,40,23,15">
 	<TextBlock TextWrapping="Wrap" Margin="0,6,0,5" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Center" FontSize="18"
                     Text="欢迎来到余梦再现服务器" />
@@ -10,7 +10,7 @@
                     Text="或者使用下面按钮的功能" />
 	<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
 	<local:MyButton Margin="0,0,10,0" Width="145" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                    Text="进入服务器" EventType="启动游戏" EventData="1.20.1RDUClient|ymzx.cjhcjh6.top" ToolTip="直接启动游戏并进入服务器" />
+                    Text="进入服务器" EventType="启动游戏" EventData="1.20.4|ymzx.cjhcjh6.top" ToolTip="直接启动游戏并进入服务器" />
 	<local:MyButton Margin="0,0,10,0" Width="125" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                     Text="刷新主页" EventType="刷新主页"/>
 	<local:MyButton Margin="0,0,10,0" Width="125" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
@@ -20,215 +20,11 @@
 		</StackPanel>
 	<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
 		<local:MyIconButton Margin="0,4,0,0" Width="30" Height="30" HorizontalAlignment="Center"
-                    Theme="Black" EventType="弹出窗口" EventData="关于|当前版本为v1.0\n作者:fingood114\n感谢你们对余梦再现的支持" ToolTip="关于" 
+                    Theme="Black" EventType="弹出窗口" EventData="关于|当前版本为v2.0\n作者:fingood114\n感谢你们对余梦再现的支持" ToolTip="关于" 
                     LogoScale="1" Logo="M149 873c47 47 101 83 162 109 63 26 130 40 199 40 69 0 136-13 199-40 61-25 115-62 162-109s83-101 109-162c26-63 40-130 40-199 0-69-13-136-40-199-25-61-62-115-109-162-46-46-101-83-162-109C648 13 580 0 511 0s-136 13-199 40c-61 25-115 62-162 109s-83 101-109 162C13 375 0 442 0 511s13 136 40 199c25 61 62 115 109 162zM97 511c0-228 185-414 414-414 228 0 414 185 414 414S740 926 511 926c-228 0-414-185-414-414z M539 244c-8-4-17-7-27-7-9 0-19 2-27 7-16 9-27 27-27 47 0 30 24 54 54 54 30 0 54-24 54-54 0-19-10-37-27-47zM566 732v-284c0-30-24-54-54-54-30 0-54 24-54 54v284c0 30 24 54 54 54 30 0 54-24 54-54z" />
 		<local:MyIconButton Margin="0,4,0,0" Width="30" Height="30" HorizontalAlignment="Center"
                     Theme="Black" EventType="打开网页" EventData="https://github.com/cjhcjh6/RDU_PCL-Mainpage" ToolTip="代码" 
                     LogoScale="1.02" Logo="M1091 0H78C35 0 0 35 0 78v863c0 43 35 78 78 78H1091c43 0 78-35 78-78V78C1170 35 1134 0 1091 0z m-8 87v78H87v-78h994zM87 933V254h994v679H87v0zM724 340l-206 547a43 43 0 0 1-82-31l206-547a43 43 0 0 1 82 30zM369 545l-85 85 85 85a43 43 0 0 1-62 62l-116-116a43 43 0 0 1 0-62l116-116a43 43 0 0 1 62 61z m610-37a43 43 0 0 1 0 62l-116 116a43 43 0 0 1-62 0 43 43 0 0 1 0-62l85-85-85-85a43 43 0 0 1 62-62l116 116z" />
 		</StackPanel>
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="余梦再现1.1更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="增加了植物魔法和精妙背包" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="增加了机械动力的俩个附属" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="增加了通用机械的ME化学存储单元mod" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="把需要更新的mod更新一下" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="删除了起源 天使方块 星光 末地重生锚" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="余梦再现目前进展10" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="你问我进展09去哪里了？" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="进展09太多图片了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="我暂时没有这个技术力" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="先说一下" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="我们把从Fabric+插件改成了Forge+插件" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="以获取更好的模组体验" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="服务器的网站已经搭建完成了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="准备好就开服了" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="余梦再现目前进展08" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="进展非常顺利" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="除了出问题的模组以外" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="其他的模组和插件都可以正常运行" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="现在把菜单 配置 以及成就系统弄完就可以了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="顺便等YSM和Banner更新" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="余梦再现目前进展07" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="这次测试又出BUG了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="是lychee的问题，去末地会崩溃" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="没错又是Mixin错误" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="连带Fruitful Fun和kiwi一起删除了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="以及换了一个传送石碑的Mod" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="还有这次也把Ad Astra以及它的俩个库也删除了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="即使Ad Astra不出问题我也要删除" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="因为它的世界很多" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="Banner每次一个一个的加载每个世界的出生点区块" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="差不多7分钟左右了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="这只是加载世界的时间" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="余梦再现目前进展06" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="我尝试使用CardBoard失败了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="它与Forge Config API Port并不兼容" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="也就是如果后期YSM的Fabric更新后就无法加入了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="至于纯Fabric端…" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="商店倒是可以使用" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="至于Impactor经济Mod……" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="余额和排行榜都查看不了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="钱都给不了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="还得靠商店来查看" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="至于Ledger(Fabric版CoreProtect)这个记录延迟差不多2分钟~12分钟吧" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="现在只有俩个选择了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="纯Fabric端 和 Banner" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="如果YSM的Fabric的版本1.2.0没有1.20.1的话我我会直接使用CardBoard" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="余梦再现目前进展05" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="说实话我今天试了一下纯Fabric端" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="果然没有经济模组(插件)是硬伤" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="这个星期就这样吧" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="下个星期试一下cardboard吧，这个应该不会对模组造成损伤吧" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="余梦再现目前进展04" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="对了,之前忘记说了我试了YSM(是!史蒂夫)" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="这个似乎并不支持fabric服务器里启动" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="不知道后续更新修不修护" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="我今天尝试移植到Banner" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="很顺利……" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="只有四个mod不兼容" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="Ad Astra (星际mod,可加载无法去往其他星球，包括地球，也就是说你只能卡在选星球的界面)" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="传送石碑 （可以加载无法传送）" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" 
-                    Text="Flux通量网络 (无法加载因为与Banner的mixin冲突)" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="额外起源 (因为Pehkui无法加载因为与Lychee不兼容,这种情况只会在Banner中发生)"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="我还是找一下其他方法吧" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="或者直接采用的纯fabric端，以实现兼容最大化，也就是没有经济插件效果差点" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="旧梦复生改名为余梦再现" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="旧梦复生二周目改名为余梦再现(我不怎么会起名还请见谅)" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="余梦再现预计六月左右开启" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="二周目版本为1.20.1(Fabric+插件)" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="英文名改为Remaining Dreams Unfolding" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="旧梦复生二周目前进展03" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="进展很不错" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="找到了Fabric进服直接卡死的原因" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="问题出现在JEI上面" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="我把JEI换成EMI了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="现在把移植到Banner就可以了" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="旧梦复生二周目前进展02" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="我今天试了一下发现了那个BUG已经修了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="但是有一个新的问题" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="Fabric进服直接卡死" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="不会显示缺少或多加的mod" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="有点麻烦" />
-	</StackPanel>
-</local:MyCard>
-<local:MyCard Title="Banner的问题" Margin="0,0,0,15" CanSwap="True" IsSwaped="true">
-	<StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="今天尝试先制作出服务器的服务端" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="不出去意外的出意外了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="果然还是兼容问题" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="卡在机械动力上面了" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="先暂停服务端制作吧" />
-       <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="反正离二周目欢迎两三个月,不着急" />
-       <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="Banner团队也就是Mohist团队更新也是很快的" />
-       <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="希望到时候修复吧" />
 	</StackPanel>
 </local:MyCard>
