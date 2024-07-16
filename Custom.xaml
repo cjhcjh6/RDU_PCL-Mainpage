@@ -28,3 +28,13 @@
 		</StackPanel>
 	</StackPanel>
 </local:MyCard>
+<local:MyCard Title="余梦再现三周目预告" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="由于二周目的反馈并不好" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="所以我们决定提前开始三周目预告" />  
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="三周目是空岛服并由插件运行" />                            
+	</StackPanel>
+</local:MyCard>
