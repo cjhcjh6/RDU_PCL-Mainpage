@@ -1,0 +1,50 @@
+<local:MyCard Title="欢迎页(三周目)" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+	<StackPanel Margin="25,40,23,15">
+	<TextBlock TextWrapping="Wrap" Margin="0,6,0,5" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Center" FontSize="18"
+                    Text="欢迎来到余梦再现服务器" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="这里是欢迎页" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="你可以在下面看服务器更新日志" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="或者使用下面按钮的功能" />
+	<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+	<local:MyButton Margin="0,0,10,0" Width="145" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="进入服务器" EventType="启动游戏" EventData="1.20.4|ymzx.cjhcjh6.top" ToolTip="直接启动游戏并进入服务器" />
+	<local:MyButton Margin="0,0,10,0" Width="125" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="刷新主页" EventType="刷新主页"/>
+	<local:MyButton Margin="0,0,10,0" Width="125" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="清理垃圾" EventType="清理垃圾"/>
+	<local:MyButton Margin="0,0,10,0" Width="125" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="内存优化" EventType="内存优化"/>
+		</StackPanel>
+	<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+		<local:MyIconButton Margin="0,4,0,0" Width="30" Height="30" HorizontalAlignment="Center"
+                    Theme="Black" EventType="弹出窗口" EventData="关于|当前版本为v2.0\n作者:fingood114\n感谢你们对余梦再现的支持" ToolTip="关于" 
+                    LogoScale="1" Logo="M149 873c47 47 101 83 162 109 63 26 130 40 199 40 69 0 136-13 199-40 61-25 115-62 162-109s83-101 109-162c26-63 40-130 40-199 0-69-13-136-40-199-25-61-62-115-109-162-46-46-101-83-162-109C648 13 580 0 511 0s-136 13-199 40c-61 25-115 62-162 109s-83 101-109 162C13 375 0 442 0 511s13 136 40 199c25 61 62 115 109 162zM97 511c0-228 185-414 414-414 228 0 414 185 414 414S740 926 511 926c-228 0-414-185-414-414z M539 244c-8-4-17-7-27-7-9 0-19 2-27 7-16 9-27 27-27 47 0 30 24 54 54 54 30 0 54-24 54-54 0-19-10-37-27-47zM566 732v-284c0-30-24-54-54-54-30 0-54 24-54 54v284c0 30 24 54 54 54 30 0 54-24 54-54z" />
+		<local:MyIconButton Margin="0,4,0,0" Width="30" Height="30" HorizontalAlignment="Center"
+                    Theme="Black" EventType="打开网页" EventData="https://github.com/cjhcjh6/RDU_PCL-Mainpage" ToolTip="代码" 
+                    LogoScale="1.02" Logo="M1091 0H78C35 0 0 35 0 78v863c0 43 35 78 78 78H1091c43 0 78-35 78-78V78C1170 35 1134 0 1091 0z m-8 87v78H87v-78h994zM87 933V254h994v679H87v0zM724 340l-206 547a43 43 0 0 1-82-31l206-547a43 43 0 0 1 82 30zM369 545l-85 85 85 85a43 43 0 0 1-62 62l-116-116a43 43 0 0 1 0-62l116-116a43 43 0 0 1 62 61z m610-37a43 43 0 0 1 0 62l-116 116a43 43 0 0 1-62 0 43 43 0 0 1 0-62l85-85-85-85a43 43 0 0 1 62-62l116 116z" />
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="余梦再现三周目" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="三周目已经开启了" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="使用原版1.21~.1.20就可以玩了" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="三周目是空岛服并由插件运行" />                            
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="余梦再现三周目预告" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="由于二周目的反馈并不好" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="所以我们决定提前开始三周目预告" />  
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="三周目是空岛服并由插件运行" />                            
+	</StackPanel>
+</local:MyCard>
