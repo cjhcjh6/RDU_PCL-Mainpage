@@ -35,8 +35,8 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="输入/rps game [玩家] [赌注]（赌注可以为0）向你朋友发起邀请吧" />                        
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="输入rps accept 来接受" /> 
+                    Text="输入/rps accept 来接受" /> 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="如果不想被打扰可以输入rps toggle 来设置屏蔽所有的邀请" />                         
+                    Text="如果不想被打扰可以输入/rps toggle 来设置屏蔽所有的邀请" />                         
 	</StackPanel>
 </local:MyCard>
