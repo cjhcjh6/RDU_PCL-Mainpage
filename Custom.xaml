@@ -28,13 +28,15 @@
 		</StackPanel>
 	</StackPanel>
 </local:MyCard>
-<local:MyCard Title="余梦再现三周目" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+<local:MyCard Title="石头剪刀布" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="三周目已经开启了" />
+                    Text="想要和你的好朋友来一场石头剪刀布吗" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="使用原版1.21~.1.20就可以玩了" />
+                    Text="输入/rps game <玩家> <赌注>（赌注可以为0）向你朋友发起邀请吧" />                        
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="三周目是空岛服并由插件运行" />                            
+                    Text="输入rps accept 来接受" /> 
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="如果不想被打扰可以输入rps toggle 来设置屏蔽所有的邀请" />                         
 	</StackPanel>
 </local:MyCard>
