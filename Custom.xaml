@@ -33,7 +33,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="想要和你的好朋友来一场石头剪刀布吗" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="输入/rps game <玩家> <赌注>（赌注可以为0）向你朋友发起邀请吧" />                        
+                    Text="输入/rps game [玩家] [赌注]（赌注可以为0）向你朋友发起邀请吧" />                        
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="输入rps accept 来接受" /> 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
