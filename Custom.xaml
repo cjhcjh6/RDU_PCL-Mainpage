@@ -40,3 +40,13 @@
                     Text="如果不想被打扰可以输入/rps toggle 来设置屏蔽所有的邀请" />                         
 	</StackPanel>
 </local:MyCard>
+<local:MyCard Title="数据包：花式被子" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="非常简单的玩法" />          
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="使用织布机来给旗子编制样式" />           
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="然后拿着做好的旗子SHIFT+右键对准床头或是床尾面就可以了" />             
+	</StackPanel>
+</local:MyCard>
