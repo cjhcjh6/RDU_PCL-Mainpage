@@ -50,3 +50,43 @@
                     Text="然后拿着做好的旗子SHIFT+右键对准床头或是床尾面就可以了" />             
 	</StackPanel>
 </local:MyCard>
+<local:MyCard Title="数据包：传送石碑" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="我们向游戏中添加了传送石碑" />    
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="以下是合成方式" />
+        <Image Height="254" HorizontalAlignment="Center" Source="https://i.postimg.cc/fbXw4v9J/b4b.png" />      
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="里面的苔石砖可以换成:磨制安山岩 切制砂岩 深板岩砖 下界岩砖" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="一共是5种样式" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="外观:" />
+        <Image Height="254" HorizontalAlignment="Center" Source="https://i.postimg.cc/nV1vmyLc/QQ-20241005152409.png" />  
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="这是打开之后的样子:" />
+        <Image Height="254" HorizontalAlignment="Center" Source="https://i.postimg.cc/44FxjPLQ/QQ-20241005152449.png" />  
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="点击方块图标就可以传送了" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="下面的几个功能" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="第一个[帽子]:能见度" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="默认是公开,还可以设置为发现[Discoverable]和私人[Private]" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="发现[Discoverable]：则其他玩家在至少与它互动一次之前不会在传送界面看到它，这意味着需要先发现路石的位置" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="第二个[衣服]:保护" />     
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="默认保护是不开启的,开启之后只有该传送石碑的所有者或是管理才能删除" />    
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="第三个[书]:共享朋友" />   
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="是给传送石碑设置私人模式还想给朋友使用出的" />  
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="使用方法:" />    
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="在书与笔中写入你朋友的名字并放入传送石碑就可以了" />   
+</local:MyCard>
