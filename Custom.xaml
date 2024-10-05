@@ -53,7 +53,7 @@
 <local:MyCard Title="数据包：传送石碑" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="我们向游戏中添加了传送石碑" />    
+                    Text="我们向游戏中添加了传送石碑数据包" />    
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="以下是合成方式" />
         <Image Height="254" HorizontalAlignment="Center" Source="https://i.postimg.cc/fbXw4v9J/b4b.png" />      
