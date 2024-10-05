@@ -20,7 +20,7 @@
 		</StackPanel>
 	<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
 		<local:MyIconButton Margin="0,4,0,0" Width="30" Height="30" HorizontalAlignment="Center"
-                    Theme="Black" EventType="弹出窗口" EventData="关于|当前版本为v2.0\n作者:fingood114\n感谢你们对余梦再现的支持" ToolTip="关于" 
+                    Theme="Black" EventType="弹出窗口" EventData="关于|当前版本为v2.9.5Preview\n作者:fingood114\n域名帮助:cjhcjh6\n感谢你们对余梦再现一年以来的支持" ToolTip="关于" 
                     LogoScale="1" Logo="M149 873c47 47 101 83 162 109 63 26 130 40 199 40 69 0 136-13 199-40 61-25 115-62 162-109s83-101 109-162c26-63 40-130 40-199 0-69-13-136-40-199-25-61-62-115-109-162-46-46-101-83-162-109C648 13 580 0 511 0s-136 13-199 40c-61 25-115 62-162 109s-83 101-109 162C13 375 0 442 0 511s13 136 40 199c25 61 62 115 109 162zM97 511c0-228 185-414 414-414 228 0 414 185 414 414S740 926 511 926c-228 0-414-185-414-414z M539 244c-8-4-17-7-27-7-9 0-19 2-27 7-16 9-27 27-27 47 0 30 24 54 54 54 30 0 54-24 54-54 0-19-10-37-27-47zM566 732v-284c0-30-24-54-54-54-30 0-54 24-54 54v284c0 30 24 54 54 54 30 0 54-24 54-54z" />
 		<local:MyIconButton Margin="0,4,0,0" Width="30" Height="30" HorizontalAlignment="Center"
                     Theme="Black" EventType="打开网页" EventData="https://github.com/cjhcjh6/RDU_PCL-Mainpage" ToolTip="代码" 
