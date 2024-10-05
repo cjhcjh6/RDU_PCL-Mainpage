@@ -88,5 +88,6 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="使用方法:" />    
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="在书与笔中写入你朋友的名字并放入传送石碑就可以了" />   
+                    Text="在书与笔中写入你朋友的名字并放入传送石碑就可以了" /> 
+        </StackPanel>  
 </local:MyCard>
