@@ -1,6 +1,6 @@
 # 余梦再现的PCL主页
 ### 在PCl中把主页链接设置为以下链接
-https://pclmp.cjhcjh6.top/Custom.xaml
+https://pcl.rduteam.top/Custom.xaml
 ### 懒的单独在做一个额外的网页了
 ### 不要点击链接下载文件
 ### 下载的主页文件不会自动更新的
