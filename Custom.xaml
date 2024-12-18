@@ -3,7 +3,7 @@
 	<TextBlock TextWrapping="Wrap" Margin="0,6,0,5" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Center" FontSize="18"
                     Text="欢迎来到余梦再现服务器" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="这里是欢迎来到余梦再现第四周目-混乱之梦-一周年快乐！" />
+                    Text="这里是欢迎来到余梦再现第四周目-混乱之梦-一周年...快乐吗?" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="你可以在下面看服务器更新日志" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
